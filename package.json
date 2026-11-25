@@ -1,0 +1,16 @@
+{
+  "name": "ebookstore-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Monorepo EbookStore: Backend Node.js/Express/TS + Frontend Next.js App Router",
+  "scripts": {
+    "dev:server": "npm run dev --prefix server",
+    "dev:web": "npm run dev --prefix web",
+    "build:server": "npm run build --prefix server",
+    "build:web": "npm run build --prefix web",
+    "start:server": "npm run start --prefix server",
+    "start:web": "npm run start --prefix web",
+    "test:server": "npm run test --prefix server",
+    "seed": "npm run seed --prefix server"
+  }
+}
